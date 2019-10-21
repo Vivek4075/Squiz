@@ -77,7 +77,7 @@ public class Squiz extends GraphicsProgram{
         
         removeAll();
         add(size,x,y);
-        pause(500);
+        pause(500);		// Add a halt of 500 ms.
         
         removeAll();
         
@@ -87,6 +87,8 @@ public class Squiz extends GraphicsProgram{
     @Override
     public void init(){
 
+
+    	// Create a colour matrix to add different colours .   
         colors = new Color[9];
         colors[0]=Color.red;
         colors[1]=Color.GREEN;
