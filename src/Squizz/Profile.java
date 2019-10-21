@@ -108,6 +108,8 @@ public class Profile extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 420, 70);
 
+
+        //Set the background colours for GUI
         jPanel2.setBackground(new java.awt.Color(44, 62, 80));
 
         jLabel4.setBackground(new java.awt.Color(236, 240, 241));
@@ -162,6 +164,8 @@ public class Profile extends javax.swing.JFrame {
         jLabel10.setBackground(new java.awt.Color(108, 122, 137));
         jLabel10.setForeground(new java.awt.Color(228, 241, 254));
 
+
+        // Initialize the layout with Group Layout. But can later be modified.
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
