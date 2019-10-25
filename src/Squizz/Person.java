@@ -11,6 +11,8 @@ package Squizz;
  */
 public class Person {
 
+	//database of user
+
     private int id;
     private String name;
     private String pass;
@@ -48,8 +50,7 @@ public class Person {
  
     }
      public void set_id(int id){
-        //String name,String pass,String email,String phone,String type,String registration_number, Boolean is_cert) {
-    
+        
         this.id = id;
     }
     
